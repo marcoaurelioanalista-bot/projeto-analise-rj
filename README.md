@@ -34,6 +34,6 @@ for i, v in enumerate(df['Recuperados']):
     plt.text(i + bar_width - 0.05, v + 50, str(v), color='black', fontweight='bold')
 
 plt.tight_layout()
-plt.savefig('estatisticas_rj_2025.png') # Salva a imagem para usar no README.md
+plt.savefig('estatisticas_rj_2025.png')
 plt.show()
 
